@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 style="font-size: 35px; margin-top: 20px; margin-left: 10px; position: relative;" id="Title">NimbusNow</h2>
+            <div class="weather-input">
+                <input  type="text" name="city" id="city_input" placeholder = " Enter city">
+                <button type="button" id="searchBtn">
+                    <i class="fa-regular fa-search"></i> Search
+                </button>
+                <button type="button" id="locationBtn">
+                    <i class="bx bx-target-lock"></i> Current Location
+                </button>
+            </div>
+        </div>
+        <div class="weather-data">
+            <div class="weather-left">
+                <div class="card">
+                    <div class="current-weather">
+                        <div class="details">
+                            <p style="color: black;" class="displayed-datemy">Now</p>
+                            <h2>___&deg:C</h2>
+                            <p style="color: black;" class="displayed-datemy>_____</p>
+                        </div>
+                        <div class="weather-icon">
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
+                        </div>
+                    </div>
+                    <hr style="margin-bottom: 20px;">
+                    
+                    <div class="card-footer">
+                       <p style="color: black;" class="displayed-datemy"><i class="fa-light fa-calendar"></i>______</p>
+                       <p style="color: black;" class="displayed-datemy"><i class="fa-light fa-location-dot"></i>_______</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>5 days Forecast</h2>
+                    <div class="day-forecast">
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="https://openweathermap.org/img/wn/02d.png" 
+                                alt="">
+                                <span>____&deg;C</span>
+                            </div>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                        </div>
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="https://openweathermap.org/img/wn/02d.png" 
+                                alt="">
+                                <span>____&deg;C</span>
+                            </div>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                        </div>
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="https://openweathermap.org/img/wn/02d.png" 
+                                alt="">
+                                <span>____&deg;C</span>
+                            </div>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                        </div>
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="https://openweathermap.org/img/wn/02d.png" 
+                                alt="">
+                                <span>____&deg;C</span>
+                            </div>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                        </div>
+                        <div class="forecast-item">
+                            <div class="icon-wrapper">
+                                <img src="https://openweathermap.org/img/wn/02d.png" 
+                                alt="">
+                                <span>____&deg;C</span>
+                            </div>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                            <p style="color: black;" class="displayed-datemy">_____</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-right">
+                <h2 style="position: relative; top: 200px;">Today's Highlights</h2>
+                <div style="position: relative; top: 200px;" class="highlights">
+                    <div class="card">
+                        <div class="card-head">
+                            <p>Air Quality Index =></p>
+                            <p class="air-index aqi-1">Good</p>
+                        </div>
+                        <div class="air-indices">
+                            <i class="fa-regular fa-wind fa-3x"></i>
+                            <div class="item">
+                                <p style="color: #50586C;">PM2.5</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">PM10</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">SO2</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">CO</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">NO</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">NO2</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">NH3</p>
+                                <h2>____</h2>
+                            </div>
+                            <div class="item">
+                                <p style="color: #50586C;">O3</p>
+                                <h2>____</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>
